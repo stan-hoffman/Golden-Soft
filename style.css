@@ -4,12 +4,16 @@
 
 header {
     height: 82px;
-    width: 1440px;    
+    width: 1440px;   
+    display: flex; 
 }
 
 .container {
-        display: flex;
-        margin: 0 auto;
+        margin-left: 100px;
+}
+
+.menu_block {
+    display: flex;
 }
 
 .logo {
@@ -78,23 +82,27 @@ header {
 }
 
 .main_banner {
-    width: 1440px;
+    min-width: 1440px;
     height: 774px;
-    flex-shrink: 0;
-}
-
-.main_banner_text_block {
     display: block;
-}
 
-.main_banner_img {
-    width: 1440px;
-    height: 774px;
 }
 
 .main_banner_header {
+    position: absolute;
+    top: 63%;
+    left: 60%;
+    transform: translate(-20%, -50%);
     text-align: left;
+    padding: 20px;
 }
+
+
+.main_banner_img img {
+    width: 1440px;
+    height: 774px;
+}
+
 
 h1,main_header_text {
     font-size: 44px;
@@ -105,6 +113,7 @@ h1,main_header_text {
 }
 
 .main_header_subtext {
+    color: var(--grey, #454F5B);
     margin-top: 20px;
     font-size: 14px;
     font-style: normal;
@@ -143,6 +152,8 @@ h1,main_header_text {
     width: 220px;
     height: 50px;
     background: var(--main, #4295E4);
+    cursor: pointer;
+    border: none;
 }
 .button_text {
     text-align: center;
@@ -153,3 +164,76 @@ h1,main_header_text {
     line-height: 26px;
     color:rgba(255, 255, 255, 1);
  }
+
+.main_slider {
+    left: 300px;
+    display: block;
+    margin-bottom: 54px;
+}
+
+.slider_block {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    left: 50%;
+    right: 50%;
+
+}
+
+.slider_block_img_vector {
+    margin-right: 24px;
+}
+
+.slider_block_img_point {
+    margin-right: 16px;
+}
+
+.slider_block_img_point2 {
+    margin-left: 16px;
+}
+
+.slider_block_img_vector2 {
+    margin-left: 24px;
+    top: 50%;
+}
+
+.statistic {
+    display: flex;
+    width: 1440px;
+    padding: 40px 319px;
+    background: var(--bg-light, #F2F8FF);
+}
+
+.statistic_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 82px;
+}
+
+.statistic_numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.statistic_amount {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+    color: var(--black, #161C24);
+}
+
+.statistic_decr {
+    color: var(--grey, #454F5B);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+
