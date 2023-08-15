@@ -1,3 +1,5 @@
+@import url(./form.css);
+
 * {
     font-family: 'Roboto', sans-serif;
 }
@@ -283,7 +285,7 @@ h1,main_header_text {
 }
 
 .category {
-    min-height: auto; 
+    /* min-height: auto;  */
 }
 
 .category_title {
@@ -310,10 +312,7 @@ h1,main_header_text {
     flex-direction: column;
     width: 600px;
     height: 470px;
-    display: flex;
-
-    
-    
+    display: flex;  
 }
 
 .category_text {
@@ -376,8 +375,10 @@ h1,main_header_text {
 }
 
 .product_wrap {
-    display: flex;
-    justify-content: space-between;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 96px;
 }
 
 
