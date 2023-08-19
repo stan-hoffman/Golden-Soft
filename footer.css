@@ -1,0 +1,174 @@
+footer {
+    margin: auto;
+    width: 1440px;
+    /* height: 448px; */
+    background-color: #0D2436;
+    box-shadow: 0px 1px 0px 0px #C4CDD5 inset;
+}
+
+.footer_wrapper {
+    display: flex;
+    margin-right: 88px;
+}
+
+.wrap_1 {
+    margin-left: 100px;
+}
+
+.footer_logo {
+    margin-top: 64px;
+    margin-right: 217px;
+    margin-bottom: 217px;
+}
+
+.footer_social {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 126px;
+}
+
+.footer_social_item {
+    width: 26px;
+    height: 26px;
+}
+
+.wrap_2 {
+     margin-top: 55px;  
+}
+
+.footer_links {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 97px;
+}
+
+.footer_links_navigation {
+    display: flex;
+    width: 139px;
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: 24px; */
+    
+}
+
+.navigation_item {
+    color: var(--white, #FFF);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    text-decoration: none;
+}
+
+.footer_links_contacts {
+    width: 179px;
+}
+
+.footer_navigation {
+    color: var(--white, #FFF);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+.footer_subnavigation {
+    color: var(--light-grey, #C4CDD5);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.footer_gap_phone {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.footer_phone {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    color: var(--white, #FFF);
+    text-decoration: none;
+
+}
+
+.footer_mail {
+    color: var(--white, #FFF);
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    text-decoration: none;
+
+}
+
+.footer_gap_mail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.footer_links_adress {
+    width: 182px;
+    color: var(--white, #FFF);
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+.footer_links_info {
+    width: 256px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.footer_gap_item {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer_bottom {
+    background-color: #0D2436;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.bottom_line {
+    padding-bottom: 24px;
+}
+
+.bottom_info {
+    color: var(--white, #FFF);
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
