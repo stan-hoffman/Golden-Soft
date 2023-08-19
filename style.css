@@ -1,4 +1,5 @@
 @import url(./form.css);
+@import url(./footer.css);
 
 
 * {
@@ -354,7 +355,7 @@ h1,main_header_text {
 
 .products {
     min-width: 1243px;
-    height: 62px;
+    /* height: 62px; */
 }
 
 .product_title_block {
